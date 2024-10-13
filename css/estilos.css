@@ -1,0 +1,153 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: larger;
+}
+
+.menu{
+    text-align: center;
+    font-size: large;
+    margin: 40px;
+}
+
+.menu a{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.menu a:active, .menu a:visited, .menu a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    background-color: white;
+    box-shadow: 10px -10px 100px 30px rgba(255,255,255,1);
+}
+
+.contacto{
+    margin: 100px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25%;
+}
+
+.contacto input{
+    width: 100%;
+    resize: none;
+    height: 25px;
+}
+
+.contacto textarea{
+    width: 100%;
+    resize: vertical;
+    overflow-y: auto;
+    height: 80px;
+}
+
+ 
+.contacto label{
+    font-size: larger;
+}
+
+.edu{
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.edu:hover{
+    background-color: rgb(236, 230, 230);
+}
+
+.tech{
+    width: 25%;
+}
+
+.tech a{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    font-size: larger;
+}
+
+.tech a:hover{
+    background-color: white;
+    box-shadow: 10px -10px 100px 30px rgba(255,255,255,1);
+}
+
+.tech a:active, .tech a:visited, .tech a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.no-inf{
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.no-inf:hover{
+    background-color: rgb(236, 230, 230);
+    cursor:pointer;
+}
+
+.no-inf-int{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px 200px 50px 200px;
+    padding: 5px;
+    text-align: center;
+}
+
+.no-inf-int:hover{
+    /*background-color: lightgray;*/
+    box-shadow: 10px -10px 100px 30px lightgray;
+}
+
+.inf{
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.inf:hover{
+    background-color: rgb(236, 230, 230);
+}
+
+.inf-int{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px 200px 50px 200px;
+    padding: 5px;
+    text-align: center;
+}
+
+.inf-int:hover{
+    background-color: lightgray;
+    box-shadow: 10px -10px 100px 30px lightgray;
+}
+
