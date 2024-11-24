@@ -72,6 +72,15 @@ p{
     background-color: rgb(236, 230, 230);
 }
 
+.edu-link{
+    text-decoration: none;
+}
+
+.edu-link:visited{
+    text-decoration: none;
+    color: black;
+}
+
 .tech{
     width: 25%;
 }
@@ -151,12 +160,5 @@ p{
     box-shadow: 10px -10px 100px 30px lightgray;
 }
 
-.edu-link{
-    text-decoration: none;
-}
 
-.edu-link:visited{
-    text-decoration: none;
-    color: black;
-}
 
